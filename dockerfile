@@ -1,5 +1,5 @@
 FROM golang:1.20-alpine
-WORKDIR /app
+WORKDIR app
 
 COPY . .
 RUN go mod tidy
